@@ -16,15 +16,15 @@ export const routes: Routes = [
     path: 'reservation',
     pathMatch:"full",
     loadComponent: () =>
-      import('./features/about/about-house-info/about-house-info.component')
-        .then(m => m.AboutHouseInfoComponent),
+      import('./features/reservation/reservation.component')
+        .then(m => m.ReservationComponent),
   },
   {
     path: 'contact',
     pathMatch:"full",
     loadComponent: () =>
-      import('./features/about/about-house-info/about-house-info.component')
-        .then(m => m.AboutHouseInfoComponent),
+      import('./features/contact/contact.component')
+        .then(m => m.ContactComponent),
   },
 
 
