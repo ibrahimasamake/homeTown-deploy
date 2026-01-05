@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "name": "Laptop",
+    "slug": "laptop"
+  },
+  {
+    "id": "2",
+    "name": "Smartphone",
+    "slug": "smartphone"
+  }
+]
